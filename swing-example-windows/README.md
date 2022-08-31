@@ -8,7 +8,7 @@ Next run the following commands to create the executable.
 
 <code>java -agentlib:native-image-agent=config-output-dir=META-INF/native-image -jar SwingSet2.jar</code>
 
-<code>native-image -Djava.awt.headless=false --no-fallback -jar SwingSet2.jar</code>
+<code>native-image -Djava.awt.headless=false -H:ReflectionConfigurationFiles=META-INF\native-image\reflect-config.json -H:ResourceConfigurationFiles=META-INF\native-image\resource-config.json -jar SwingSet2.jar</code>
 
 <code>EDITBIN /SUBSYSTEM:WINDOWS SwingSet2.exe</code>
 
