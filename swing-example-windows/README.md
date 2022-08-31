@@ -4,11 +4,11 @@ Now download the Github repo, extract it, open a "x64 Native Tools Command Promp
 
 Next run the following commands to create the executable.
 
-mkdir -p META-INF\native-image
+<code>mkdir -p META-INF\native-image
 
 java -agentlib:native-image-agent=config-output-dir=META-INF/native-image -jar SwingSet2.jar
 
 native-image -Djava.awt.headless=false --no-fallback -jar SwingSet2.jar
 
-EDITBIN /SUBSYSTEM:WINDOWS SwingSet2.exe
+EDITBIN /SUBSYSTEM:WINDOWS SwingSet2.exe</code>
 
