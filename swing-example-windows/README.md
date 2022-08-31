@@ -1,4 +1,4 @@
-On Windows remove any java tooling from the system's path variables, next install the MS Build Tools and also the Liberica Native Image Kit (Full version, Java 17 tested).
+On Windows remove any java tooling from the system's path variables, next install the MS Build Tools and also the Liberica Native Image Kit (Full version NIK 22, Java 17 tested).
 
 Now download the Github repo, extract it, open a "x64 Native Tools Command Prompt" and change into the "swing-example-windows" directory.
 
