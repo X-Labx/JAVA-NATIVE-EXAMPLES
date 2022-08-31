@@ -1,4 +1,4 @@
-On Windows remove any java tooling from the system's path variables, next install the MS Build Tools and also the Liberica Native Image Kit (Full version NIK 22, Java 17 tested).
+On Windows 10 remove any Java tooling from the system's path variables, next install the MS Build Tools (2022 tested) and also the Liberica Native Image Kit (Full version NIK 22, Java 17 tested).
 
 Now download the Github repo, extract it, open a "x64 Native Tools Command Prompt" and change into the "swing-example-windows" directory.
 
@@ -12,4 +12,6 @@ Next run the following commands to create the executable.
 
 <code>EDITBIN /SUBSYSTEM:WINDOWS SwingSet2.exe</code>
 
-Now you should have an executable SwingSet2.exe which will run correctly. The Swing and JavaFX features in Liberica native-image on in development and not fully implemented (as of version NIK 22) so expect reliablity issues and possibly unhandled exceptions. 
+Now you should have an executable SwingSet2.exe which will run correctly. 
+
+<strong>Disclaimer:</strong> The Swing and JavaFX features in Liberica native-image on in development and not fully implemented (as of version NIK 22) so expect reliablity issues and possibly unhandled exceptions. This examples is provided on a educational basis, and since we couldn't find a complete or comprehensive example.
