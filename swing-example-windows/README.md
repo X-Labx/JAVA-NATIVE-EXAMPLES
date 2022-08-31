@@ -14,4 +14,4 @@ Next run the following commands to create the executable.
 
 Now you should have an executable SwingSet2.exe which will run correctly. 
 
-<strong>Disclaimer:</strong> The Swing and JavaFX features in Liberica native-image on in development and not fully implemented (as of version NIK 22) so expect reliablity issues and possibly unhandled exceptions. This examples is provided on a educational basis, and since we couldn't find a complete or comprehensive example.
+<strong>Disclaimer:</strong> The Swing and JavaFX features in Liberica native-image on in development and not fully implemented (as of version NIK 22) so expect reliablity issues and possibly unhandled exceptions. This example is provided purely on a educational basis, you should expect no support, changes or updates, and since we couldn't find a complete or comprehensive example.
