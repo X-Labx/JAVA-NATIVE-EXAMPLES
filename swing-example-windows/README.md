@@ -12,3 +12,4 @@ Next run the following commands to create the executable.
 
 <code>EDITBIN /SUBSYSTEM:WINDOWS SwingSet2.exe</code>
 
+Now you should have an executable SwingSet2.exe which will run correctly. The Swing and JavaFX features in Liberica native-image on in development and not fully implemented (as of version NIK 22) so expect reliablity issues and possibly unhandled exceptions. 
