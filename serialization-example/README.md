@@ -8,5 +8,5 @@ In a Linux terminal with "GraalVM 22.2.0 Java 17" and native-image installed and
 
 <code>native-image ToStringSample</code>
 
-<code>tostringsample</code>
+<code>./tostringsample</code>
   
